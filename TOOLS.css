@@ -1,0 +1,161 @@
+
+
+
+body{
+    padding:0;
+    margin: 0;
+    background: url(images/nn.PNG);
+    font-family: Monospace;
+}
+
+
+/*search box*/
+.boxcontainer{
+    margin:auto;
+    margin-top: 3%;
+    position: relative;
+    width: 400px;
+    height: 43px;
+    border:5px solid #047413;
+    padding: 0px 10px;
+    border-radius:50px;
+  }
+  .elementcontainer{
+    width: 100%;
+    height:100% ;
+    vertical-align:middle;
+
+  }
+  .search{
+    border:none;
+    height:100%;
+width: 100%;
+padding:0px 5px;
+border-radius: 80px;
+font-size: 18px;
+color: #096b00;
+font-weight: 500;
+  }
+  .search:focus{
+    outline:none;
+
+  }
+ 
+
+    .sidenav {
+    
+        width: 180px; 
+        position: fixed; 
+        top: 90px; 
+        left: 0;
+        background-color: rgb(red, green, blue); 
+        overflow-x: hidden; 
+        padding-top: 20px;
+      }
+      
+      
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #005e08;
+      }
+      
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(4, 92, 23, 0.5);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      
+      .price {
+        color: rgb(11, 150, 29);
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(4, 94, 12);
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+
+       /*button*/
+       .container{
+        text-align: left;
+        margin-bottom: 350px;
+
+      }
+      .btn{
+        border: 1px solid #007414;
+        background: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: "monserrat";
+        cursor:pointer;
+        margin: 10px;
+        transition: 0.8s;
+        position: relative;
+        overflow:hidden;
+        left:60%;
+      }
+      
+      .btn1,.btn2{
+      color: #014d18;
+      }
+      .btn3,.btn4{
+      color:#fff;
+      }
+      .btn1:hover,.btn2:hover{
+        color: rgb(255, 255, 255);
+      }
+      
+      .btn3:hover,.btn4:hover{
+        color: #005319;
+      }
+      
+      .btn::before{
+        content: "";
+        position: absolute;
+        left:0;
+        width:100%;
+        height: 0%;
+        background: #00570f;
+        z-index: -1;
+        transition: 0.8s;
+      }
+      .btn1::before,.btn3::before{
+        top:0;
+        border-radius: 0 0 50% 50%;
+      }
+      
+    
+      
+      
+      .btn3::before,.btn4::before{
+      height:100%;
+      
+      }
+      .btn1:hover::before,.btn2:hover::before{
+        height: 180%;
+      }
+
+
+
